@@ -1,0 +1,39 @@
+# Dependencias
+node_modules/
+
+# Builds
+dist/
+dev-dist/
+build/
+*.tsbuildinfo
+
+# Variables de entorno y credenciales (NUNCA subir)
+.env
+.env.*
+!.env.example
+*.pem
+*-service-account*.json
+serviceAccountKey.json
+
+# Vercel y Firebase
+.vercel/
+.firebase/
+firebase-debug.log*
+firestore-debug.log
+ui-debug.log
+
+# Tests y cobertura
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Editor y sistema
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,18 @@
+@import '@fontsource-variable/dm-sans';
+@tailwind base;@tailwind components;@tailwind utilities;
+body{@apply bg-[#f4f7fe] font-sans text-slate-900}
+.card{@apply bg-white rounded-3xl p-5 shadow-[0_8px_30px_rgba(30,64,175,.07)]}
+.btn{@apply rounded-full px-4 py-2 text-sm font-semibold bg-slate-900 text-white}
+.btn2{@apply rounded-full px-4 py-2 text-sm font-semibold border border-slate-300 bg-white}
+.inp{@apply w-full rounded-2xl border border-slate-200 px-3 py-2 text-sm}
+.dark body{background:#020617;color:#e2e8f0}
+.dark .card,.dark .bg-white{background:#0a1a35}
+.dark .bg-slate-50{background:#0f2447}
+.dark .bg-slate-100{background:#14305c;color:#e2e8f0}
+.dark .hover\:bg-slate-100:hover{background:#14305c}
+.dark .text-slate-500,.dark .text-slate-600{color:#94a3b8}
+.dark .btn{background:#3b82f6;color:#fff}
+.dark .btn2{background:#0a1a35;border-color:#1e3a6e;color:#e2e8f0}
+.dark .inp{background:#061226;border-color:#1e3a6e;color:#e2e8f0}
+.dark .card{box-shadow:0 8px 30px rgba(0,0,0,.5)}
+.dark .bg-blue-100{background:#14305c;color:#93c5fd}
